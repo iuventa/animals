@@ -1,10 +1,18 @@
+@font-face {
+    font-family: Dachi;
+    src: url(../assets/fonts/Dachi\ the\ Lynx-46841546889.otf);
+}
+@font-face {
+    font-family: MChNeobau;
+    src: url(../assets/fonts/MChNeobau-Regular-3394124541.otf);
+}
 *{
     margin: 0;
     padding: 0;
     list-style-type: none;
     text-decoration: none;
     box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: MChNeobau;
 }
 .flex{
     display: flex;
@@ -24,16 +32,18 @@ body{
 h1{
     text-align: center;
     margin: 50px;
+    font-family: Dachi;
 }
 h1 a{
     font-size: 24px;
     color: #ffffff;
     text-shadow: 0 0 2px #18046b;
+    font-family: Dachi;
 }
 h2{
     text-align: center;
     color: #ffffff;
-    font-size: 14px;
+    font-size: 18px;
 }
 .animalsCont{
     max-width: 390px;
@@ -58,6 +68,16 @@ h2{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    padding-top: 80px;
+}
+.animal span{
+
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
 }
 .dog{
     background-image: url(../assets/img/dog.jpg);
@@ -103,6 +123,16 @@ h2{
 }
 .bear{
     background-image: url(../assets/img/bear.jpg);
+}
+footer{
+    text-align: center;
+    color: #ffffff;
+    padding: 20px;
+}
+footer a{
+    color: #ffffff;
+    font-family: Dachi;
+    text-decoration: underline;
 }
 @media only screen and (max-width:390px){
     h1{
